@@ -79,7 +79,9 @@ If you would like to reproduce a specific figure, the following notebook will di
 
 - `figures <http://nbviewer.jupyter.org/urls/bitbucket.org/bbglab/mutfootprints/raw/master/figures.ipynb>`_: Locates each figure to the respective analysis notebook.
 
+|
 
+|
 
 Simulations
 ***********
