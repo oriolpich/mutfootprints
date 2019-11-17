@@ -2,6 +2,8 @@
 README
 ======
 
+|
+
 This folder contains the code used in `The Mutational Footprints of Cancer Therapies <LINK TO THE PAPER>`_.
 If you use this code in a publication, please cite:
 
@@ -18,7 +20,7 @@ The metastatic tumor cohort data (DR-024 version 2) is available from the `Hartw
 |
 
 Running this software
----------------------
+*********************
 
 These analysis have been perform using software in Python, R, Julia, and GNU bash.
 
@@ -70,14 +72,16 @@ to the commands needed for reproducing the analysis.
 
 - `extended_figures <http://nbviewer.jupyter.org/urls/bitbucket.org/bbglab/mutfootprints/raw/master/extended_figures.ipynb>`_: Perform extra analyses presented in Extended Data Figures.
 
-- `extended_figures <http://nbviewer.jupyter.org/urls/bitbucket.org/bbglab/mutfootprints/raw/master/extended_figures.ipynb>`_: Perform extra analyses presented in Extended Data Figures.
-
 
 Each folder contains a notebook with a brief description and the requirements (notebooks that would need to be executed before).
 
 If you would like to reproduce a specific figure, the following notebook will direct you to the analysis that generates it.
 
-- `figures <http://nbviewer.jupyter.org/urls/bitbucket.org/bbglab/mutfootprints/raw/master/figures.ipynb>`_: Locates each figure to the respective notebook.
+- `figures <http://nbviewer.jupyter.org/urls/bitbucket.org/bbglab/mutfootprints/raw/master/figures.ipynb>`_: Locates each figure to the respective analysis notebook.
 
+
+
+Simulations
+***********
 
 We also provide the code to reproduce the simulations performed in the supplementary materials `here <https://bitbucket.org/bbglab/mutfootprints/simulations/>`_.
