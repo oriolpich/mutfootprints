@@ -13,6 +13,10 @@ If you use this code in a publication, please cite:
 As part of this work we didn’t generate any original data. We re-used publicly available data described in specific sections of the methods.
 The metastatic tumor cohort data (DR-024 version 2) is available from the `Hartwig Medical Foundation <(https://www.hartwigmedicalfoundation.nl/en>`_ for academic research upon request. Without the Hartwig Metastatic tumor cohort the results won't be reproducible.
 
+|
+
+|
+
 Running this software
 ---------------------
 
@@ -23,6 +27,9 @@ that you can run if you are interested in re-running partially or
 totally our analysis.
 In each notebook you will find further details for running them.
 
+|
+
+|
 
 Requirements
 ************
@@ -30,7 +37,11 @@ Requirements
 To be able to run those notebooks you need to have the following
 software installed:
 
-- `Software requirements <http://nbviewer.jupyter.org/urls/bitbucket.org/opich/mutfootprints/raw/master/software_requeriments.ipynb>`_: Instructions to install requeriments
+- `Software requirements <http://nbviewer.jupyter.org/urls/bitbucket.org/bbglab/mutfootprints/raw/master/software_requeriments.ipynb>`_: Instructions to install requeriments
+
+|
+
+|
 
 
 How to reproduce the analyses
@@ -59,6 +70,8 @@ to the commands needed for reproducing the analysis.
 
 - `extended_figures <http://nbviewer.jupyter.org/urls/bitbucket.org/bbglab/mutfootprints/raw/master/extended_figures.ipynb>`_: Perform extra analyses presented in Extended Data Figures.
 
+- `extended_figures <http://nbviewer.jupyter.org/urls/bitbucket.org/bbglab/mutfootprints/raw/master/extended_figures.ipynb>`_: Perform extra analyses presented in Extended Data Figures.
+
 
 Each folder contains a notebook with a brief description and the requirements (notebooks that would need to be executed before).
 
@@ -66,3 +79,5 @@ If you would like to reproduce a specific figure, the following notebook will di
 
 - `figures <http://nbviewer.jupyter.org/urls/bitbucket.org/bbglab/mutfootprints/raw/master/figures.ipynb>`_: Locates each figure to the respective notebook.
 
+
+We also provide the code to reproduce the simulations performed in the supplementary materials `here <https://bitbucket.org/bbglab/mutfootprints/simulations/>`_.
