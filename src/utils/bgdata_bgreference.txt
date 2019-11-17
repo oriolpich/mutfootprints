@@ -1,0 +1,2 @@
+[paths]
+datasets/genomereference/leish = data/capecitabine_leishmania/bgreference/leish/
