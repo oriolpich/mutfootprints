@@ -1,0 +1,17 @@
+[pre]
+. "/home/$USER/miniconda3/etc/profile.d/conda.sh"
+conda activate simulations_env
+
+[params]
+cores = 16
+memory = 5G
+
+[jobs]
+python ../src/logistic_regression.py run-ensemble-regression --deconstruction_folder ../data/deconstruction/breast --regression_folder ../data/regression/breast --sig SBS9
+python ../src/logistic_regression.py run-ensemble-regression --deconstruction_folder ../data/deconstruction/breast --regression_folder ../data/regression/breast --sig SBS31
+python ../src/logistic_regression.py run-ensemble-regression --deconstruction_folder ../data/deconstruction/breastlungcolon --regression_folder ../data/regression/breastlungcolon --sig SBS9
+python ../src/logistic_regression.py run-ensemble-regression --deconstruction_folder ../data/deconstruction/breastlungcolon --regression_folder ../data/regression/breastlungcolon --sig SBS31
+python ../src/logistic_regression.py run-ensemble-regression --deconstruction_folder ../data/deconstruction/breast --regression_folder ../data/regression/breast --sig SBS9 --shuffle
+python ../src/logistic_regression.py run-ensemble-regression --deconstruction_folder ../data/deconstruction/breast --regression_folder ../data/regression/breast --sig SBS31 --shuffle
+python ../src/logistic_regression.py run-ensemble-regression --deconstruction_folder ../data/deconstruction/breastlungcolon --regression_folder ../data/regression/breastlungcolon --sig SBS9 --shuffle
+python ../src/logistic_regression.py run-ensemble-regression --deconstruction_folder ../data/deconstruction/breastlungcolon --regression_folder ../data/regression/breastlungcolon --sig SBS31 --shuffle

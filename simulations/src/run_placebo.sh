@@ -1,0 +1,10 @@
+#!/bin/bash
+
+python placebo.py run-placebo --signatures_path ./data/signatures.pickle.gz --deconstruction_folder ./data/deconstruction/breast --matrix_treatment_folder ./data/treatment_matrix/breast --output_folder ./data/placebo/breast --symmetric
+python placebo.py run-placebo --signatures_path ./data/signatures.pickle.gz --deconstruction_folder ./data/deconstruction/breast --matrix_treatment_folder ./data/treatment_matrix/breast --output_folder ./data/placebo/breast
+python placebo.py run-placebo --signatures_path ./data/signatures.pickle.gz --deconstruction_folder ./data/deconstruction/breastlungcolon --matrix_treatment_folder ./data/treatment_matrix/breastlungcolon --output_folder ./data/placebo/breastlungcolon --symmetric
+python placebo.py run-placebo --signatures_path ./data/signatures.pickle.gz --deconstruction_folder ./data/deconstruction/breastlungcolon --matrix_treatment_folder ./data/treatment_matrix/breastlungcolon --output_folder ./data/placebo/breastlungcolon
+python placebo.py run-placebo --signatures_path ./data/signatures.pickle.gz --deconstruction_folder ./data/deconstruction/breast --matrix_treatment_folder ./data/treatment_matrix/breast --output_folder ./data/placebo/breast --symmetric --one_to_one
+python placebo.py run-placebo --signatures_path ./data/signatures.pickle.gz --deconstruction_folder ./data/deconstruction/breast --matrix_treatment_folder ./data/treatment_matrix/breast --output_folder ./data/placebo/breast --one_to_one
+python placebo.py run-placebo --signatures_path ./data/signatures.pickle.gz --deconstruction_folder ./data/deconstruction/breastlungcolon --matrix_treatment_folder ./data/treatment_matrix/breastlungcolon --output_folder ./data/placebo/breastlungcolon --symmetric --one_to_one
+python placebo.py run-placebo --signatures_path ./data/signatures.pickle.gz --deconstruction_folder ./data/deconstruction/breastlungcolon --matrix_treatment_folder ./data/treatment_matrix/breastlungcolon --output_folder ./data/placebo/breastlungcolon --one_to_one
