@@ -86,4 +86,4 @@ If you would like to reproduce a specific figure, the following notebook will di
 Simulations
 ***********
 
-We also provide the code to reproduce the simulations performed in the supplementary materials `here <https://bitbucket.org/bbglab/mutfootprints/simulations/>`_.
+We also provide the code to reproduce the simulations performed in the supplementary materials `here <https://bitbucket.org/bbglab/mutfootprints/src/master/simulations/>`_.
