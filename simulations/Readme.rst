@@ -9,7 +9,7 @@ If you use this code in a publication, please cite:
    :class: note
 
    Oriol Pich, Ferran Muiños, Abel Gonzalez-Perez, Nuria Lopez-Bigas, 
-   The mutational footprints of cancer therapies, XX doi: `XX <LINK>`_
+   The mutational footprints of cancer therapies, Nature Genetics, 2019, `doi <https://doi.org/10.1038/s41588-019-0525-5>`_
 
 
 Running this software

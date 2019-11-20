@@ -10,7 +10,7 @@ If you use this code in a publication, please cite:
 .. admonition:: Citation
    :class: note
 
-   Oriol Pich, Ferran Muiños, Martijn Paul Lolkema, Neeltje Steeghs, Abel Gonzalez-Perez, Nuria Lopez-Bigas, The mutational footprints of cancer therapies, Nature Genetics, 2019 doi: `XX <LINK>`_
+   Oriol Pich, Ferran Muiños, Martijn Paul Lolkema, Neeltje Steeghs, Abel Gonzalez-Perez, Nuria Lopez-Bigas, The mutational footprints of cancer therapies, Nature Genetics, 2019, `doi <https://doi.org/10.1038/s41588-019-0525-5>`_
 
 As part of this work we didn’t generate any original data. We re-used publicly available data described in specific sections of the methods.
 The metastatic tumor cohort data (DR-024 version 2) is available from the `Hartwig Medical Foundation <(https://www.hartwigmedicalfoundation.nl/en>`_ for academic research upon request. Without the Hartwig Metastatic tumor cohort the results won't be reproducible.
